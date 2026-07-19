@@ -1,0 +1,7 @@
+Scanning scanme.nmap.org...
+Port 21: CLOSED
+Port 22: OPEN
+Port 80: OPEN
+Port 443: CLOSED
+Port 3306: CLOSED
+Total Open Ports: 2

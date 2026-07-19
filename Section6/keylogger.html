@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keylogger Demo</title>
+</head>
+<body>
+
+<h2>Type Something:</h2>
+<input type="text" id="inputBox">
+
+<p><b>Captured Keys:</b></p>
+<p id="log"></p>
+
+<script>
+document.addEventListener("keypress", function(e) {
+    document.getElementById("log").innerHTML += e.key;
+});
+
+/*
+This script captures all key presses and displays them.
+Security Risk:
+Attackers can steal passwords and sensitive data.
+*/
+</script>
+
+</body>
+</html>

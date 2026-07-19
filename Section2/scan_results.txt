@@ -1,0 +1,5 @@
+Port 21: CLOSED
+Port 22: CLOSED
+Port 80: CLOSED
+Port 443: CLOSED
+Port 3306: CLOSED

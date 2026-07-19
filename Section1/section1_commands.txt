@@ -1,0 +1,29 @@
+# 1
+ls -lah
+
+# 2
+find ~ -type f -name "*.txt"
+
+# 3
+tail -n 20 scan_results.txt
+
+# 4
+grep -c "OPEN" scan_results.txt
+
+# 5
+mkdir -p security/tools/scanners
+
+# 6
+chmod +x exploit.sh
+
+# 7
+whoami && hostname && pwd
+
+# 8
+find . -type f -mtime -7
+
+# 9
+grep -r "password" .
+
+# 10
+uname -a
